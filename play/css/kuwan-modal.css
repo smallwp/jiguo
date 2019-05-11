@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 40px;
+}
+#new_box{
+    width: 100%;
+    height: 79px;
+    float: left;
+}
+#new_box>div{
+    width: 495px;
+    margin: 45px auto;
+    overflow: hidden;
+}
+#new_box>div>span{
+    display: inline-block;
+    width: 165px;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+#new_box>div>span>a{
+    text-decoration: none;
+    color: #9da2a8;
+    font-size: 18px;
+}
+.highlight{
+    border-bottom: 4px solid red;
+}
+#new_box>div>.highlight a{
+    color: red;
+}
+#big_box{
+    width: 100%;
+    background: #f7f7f7;
+    float: left;
+}
+
+#big_box img:hover{
+    animation:myfirst .5s linear alternate infinite;
+}
+@keyframes myfirst {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+    }
+}
+#big_box>.row_{
+    overflow: hidden;
+    width: 1000px;
+    margin: 25px auto;
+}
+#big_box>.row_>.copy_>img{
+    width: 220px;
+    height: 130px;
+}
+#big_box>.row_>.copy_{
+    width: 220px;
+    height: 230px;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    float: left;
+    margin-left: 37px;
+}
+#big_box>.row_>.copy_:nth-child(1){
+    margin-left: 0px;
+}
+#big_box>.row_>.copy_>p{
+    margin-left: 8px;
+}
+#big_box>.row_>.copy_>p:nth-child(2){
+    color: #403f3b;
+    font-size: 14px;
+}
+#big_box>.row_>.copy_>p:nth-child(3){
+    color: #a1a09c;
+    font-size: 13px;
+}
+#big_box>.row_>.copy_>p:nth-child(4){
+    margin-top: 25px;
+    color: #a1a09c;
+    font-size: 14px;
+}
+#big_box>.row_>.copy_>p:nth-child(4)>span{
+    display: inline-block;
+}
+#big_box>.row_>.copy_>p:nth-child(4)>span:nth-child(1){
+     color: #fd5528;
+ }
+#big_box>.row_>.copy_>p:nth-child(4)>span:nth-child(2){
+    width: 22px;
+    text-align: right;
+    background: url("../../css/img/xin.png") no-repeat left;
+    margin-left: 100px;
+}
+#big_box>.row_>.copy_>p:nth-child(4)>span:nth-child(3){
+    width: 22px;
+    text-align: right;
+    background: url("../../css/img/reply.png") no-repeat left;
+}
+body>div:last-child{
+    clear: both;
+}

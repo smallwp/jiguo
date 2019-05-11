@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 5px 0px 5px #d0d0d0;
+    line-height: 70px;
+}
+#center_{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#center_>img{
+    width: 133px;
+    height: 53px;
+    float: left;
+    margin-top: 9px;
+}
+#center_>ul:nth-child(2){
+    float: left;
+    overflow: hidden;
+    margin-top: 5px;
+}
+#center_>ul:nth-child(2)>li,#center_>ul:nth-child(3)>li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+
+}
+#center_>ul:nth-child(2)>li>a,#center_>ul:nth-child(3)>li>a{
+    font-size: 20px;
+    color: #787878;
+    text-decoration: none;
+}
+
+#center_>ul:nth-child(3){
+    float: right;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+#center_>ul:nth-child(3)>li:last-child>a{
+    display: inline-block;
+    color: #fa553f;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #fa553f;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+#center_>ul:nth-child(3)>li:last-child>a:hover{
+    display: inline-block;
+    background: #fa553f;
+    color: white;
+}
+#center_>ul:nth-child(2)>li>.font_red{
+    color: #fa553f;
+}
+#img_{
+    cursor: pointer;
+    margin-top: 21px;
+}
+#inp_{
+    width: 280px;
+    height: 35px;
+    border-radius: 4px;
+    border:1px solid red;
+    display: none;
+}
+
+
+
+
+
+
+#footer{
+    width: 100%;
+    height: 360px;
+    background: #505050;
+    float: left;
+    overflow: hidden;
+}
+#over_{
+    width: 1000px;
+    margin: 40px auto;
+}
+#over_>img{
+    float: left;
+}
+#over_ ul{
+    float: left;
+    list-style: none;
+    font-size: 13px;
+    color: #9f9fa1;
+    margin-left: 29px;
+    margin-top: -5px;
+}
+#over_ ul a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #9f9fa1;
+}
+#over_ ul>li:nth-child(1){
+    font-size: 15px;
+    color: #ffffff;
+}
+#over_ ul>li{
+    margin-top: 5px;
+}
+#over_ ul>li:nth-child(2){
+    margin-top: 32px;
+}
+#over_ ul:nth-child(2)>li:nth-child(4){
+    margin-top: 20px;
+}
+#footer>div:last-child{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    color: #9f9fa1;
+    float: left;
+    margin-top: 70px;
+    font-size: 13px;
+}
+body>div{
+    clear: both;
+}

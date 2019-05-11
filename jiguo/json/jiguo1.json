@@ -1,0 +1,308 @@
+{
+ "hot":[
+   {
+      "title":"巴慕达The Toaster 烤面包机",
+      "span1":2032,
+      "span2":20,
+      "people":1395,
+      "day":"剩余时间2天",
+      "tag":"首发",
+      "img":"../img/hot9.jpg",
+      "reply":"申请"
+   },
+   {
+     "title":"Osprey小鹰户外运动专业腰包",
+     "span1":2032,
+     "span2":20,
+     "people":1395,
+     "day":"剩余时间2天",
+     "tag":"体验师专享",
+     "img":"../img/hot10.jpg",
+     "reply":"申请",
+     "status":true
+   },
+   {
+     "title":"Liquid Image 338 运动摄像眼睛",
+     "span1":2032,
+     "span2":20,
+     "people":1395,
+     "day":"剩余时间2天",
+     "tag":"首发",
+     "img":"../img/hot11.jpg",
+     "reply":"申请"
+   },
+   {
+     "title":"巴慕达The Toaster 烤面包机",
+     "span1":2032,
+     "span2":20,
+     "people":1395,
+     "day":"剩余时间2天",
+     "tag":"首发",
+     "img":"../img/hot12.jpg",
+     "reply":"申请"
+   },
+   {
+     "title":"巴慕达The Toaster 烤面包机",
+     "span1":2032,
+     "span2":20,
+     "people":1395,
+     "day":"剩余时间2天",
+     "tag":"首发",
+     "img":"../img/hot5.jpg",
+     "reply":"申请"
+   },
+   {
+     "title":"Osprey小鹰户外运动专业腰包",
+     "span1":2032,
+     "span2":20,
+     "people":1395,
+     "day":"剩余时间2天",
+     "tag":"首发",
+     "img":"../img/hot6.jpg",
+     "reply":"申请"
+   },
+   {
+     "title":"Liquid Image 338 运动摄像眼睛",
+     "span1":2032,
+     "span2":20,
+     "people":1395,
+     "day":"剩余时间2天",
+     "tag":"首发",
+     "img":"../img/hot7.jpg",
+     "reply":"申请"
+   },
+   {
+     "title":"巴慕达The Toaster 烤面包机",
+     "span1":2032,
+     "span2":20,
+     "people":1395,
+     "day":"剩余时间2天",
+     "tag":"首发",
+     "img":"../img/hot8.jpg",
+     "reply":"申请"
+   }
+ ],
+  "report":[
+    {
+      "title":"空气净化器里面学问多的惊呆你，你选对了吗?",
+      "span1":3,
+      "span2":3,
+      "people":"苏苏",
+      "img":"../img/re1.jpg"
+    },
+    {
+      "title":"怎么骑都不会累的智能自行车 : 云马C1试骑体验",
+      "span1":3,
+      "span2":3,
+      "people":"好吗",
+      "img":"../img/re2.jpg"
+    },
+    {
+      "title":"声音不是最优秀，但它形音完美的结合，足够打动人心",
+      "span1":3,
+      "span2":3,
+      "people":"iAra",
+      "img":"../img/re3.jpg"
+    },
+    {
+      "title":"风光大片信手拈来 ! vivo X6Puls不只是快，还是一台拍照利器",
+      "span1":3,
+      "span2":3,
+      "people":"苏苏",
+      "img":"../img/re4.jpg"
+    },
+    {
+      "title":"空气净化器里面学问多的惊呆你，你选对了吗?",
+      "span1":3,
+      "span2":3,
+      "people":"苏苏",
+      "img":"../img/re1.jpg"
+    },
+    {
+      "title":"怎么骑都不会累的智能自行车 : 云马C1试骑体验",
+      "span1":3,
+      "span2":3,
+      "people":"好吗",
+      "img":"../img/re2.jpg"
+    },
+    {
+      "title":"声音不是最优秀，但它形音完美的结合，足够打动人心",
+      "span1":3,
+      "span2":3,
+      "people":"iAra",
+      "img":"../img/re3.jpg"
+    },
+    {
+      "title":"风光大片信手拈来 ! vivo X6Puls不只是快，还是一台拍照利器",
+      "span1":3,
+      "span2":3,
+      "people":"苏苏",
+      "img":"../img/re4.jpg"
+    }
+  ],
+  "guide":[
+      {
+        "title":"花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到",
+        "span1":3,
+        "span2":3,
+        "url":"../img/g1.jpg",
+        "img":"../img/listbg.jpg"
+      },
+      {
+        "title":"到底有没有完美的iphone手机配件，答案都在这里",
+        "span1":3,
+        "span2":3,
+        "url":"../img/g2.jpg",
+        "img":"../img/listbg.jpg"
+      },
+      {
+        "title":"2016 ，这8支新钢笔够你装逼一年",
+        "span1":3,
+        "span2":3,
+        "url":"../img/g3.jpg",
+        "img":"../img/listbg.jpg"
+      },
+      {
+        "title":"他用12年找一把完美剃须刀，给你两万字终极购物指南",
+        "span1":3,
+        "span2":3,
+        "url":"../img/g4.jpg",
+        "img":"../img/listbg.jpg"
+      }
+  ],
+  "find":[
+      {
+        "title":"SCiO 微型光谱仪",
+        "article":"可以测定食物成分及营养",
+        "price":"￥1212",
+        "span1":3,
+        "span2":3,
+        "url":"../img/k1.jpg"
+      },
+      {
+      "title":"B&O BeoSound 35 音响",
+      "article":"支持所有音乐流媒体服务",
+      "price":"￥512",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k2.jpg"
+    },
+    {
+      "title":"Mozbii触控吸色笔",
+      "article":"能吸取65000种颜色",
+      "price":"￥暂无",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k3.jpg"
+    },
+    {
+      "title":"XPLORER 2 航拍飞行器",
+      "article":"搭载自动避障系统",
+      "price":"￥433",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k4.jpg"
+    },
+    {
+      "title":"SCiO 微型光谱仪",
+      "article":"可以测定食物成分及营养",
+      "price":"￥1212",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k1.jpg"
+    },
+    {
+      "title":"B&O BeoSound 35 音响",
+      "article":"支持所有音乐流媒体服务",
+      "price":"￥512",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k2.jpg"
+    },
+    {
+      "title":"Mozbii触控吸色笔",
+      "article":"能吸取65000种颜色",
+      "price":"￥暂无",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k3.jpg"
+    },
+    {
+      "title":"XPLORER 2 航拍飞行器",
+      "article":"搭载自动避障系统",
+      "price":"￥433",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k4.jpg"
+    },
+    {
+      "title":"SCiO 微型光谱仪",
+      "article":"可以测定食物成分及营养",
+      "price":"￥1212",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k1.jpg"
+    },
+    {
+      "title":"B&O BeoSound 35 音响",
+      "article":"支持所有音乐流媒体服务",
+      "price":"￥512",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k2.jpg"
+    },
+    {
+      "title":"Mozbii触控吸色笔",
+      "article":"能吸取65000种颜色",
+      "price":"￥暂无",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k3.jpg"
+    },
+    {
+      "title":"XPLORER 2 航拍飞行器",
+      "article":"搭载自动避障系统",
+      "price":"￥433",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k4.jpg"
+    },
+    {
+      "title":"SCiO 微型光谱仪",
+      "article":"可以测定食物成分及营养",
+      "price":"￥1212",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k1.jpg"
+    },
+    {
+      "title":"B&O BeoSound 35 音响",
+      "article":"支持所有音乐流媒体服务",
+      "price":"￥512",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k2.jpg"
+    },
+    {
+      "title":"Mozbii触控吸色笔",
+      "article":"能吸取65000种颜色",
+      "price":"￥暂无",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k3.jpg"
+    },
+    {
+      "title":"XPLORER 2 航拍飞行器",
+      "article":"搭载自动避障系统",
+      "price":"￥433",
+      "span1":3,
+      "span2":3,
+      "url":"../img/k4.jpg"
+    }
+  ]
+
+
+
+
+
+}

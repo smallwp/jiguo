@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.art{
+    width: 100%;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+.art_{
+    width: 1000px;
+    margin: 25px auto 35px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.art_p{
+    padding: 0 20px;
+    border-left: 5px solid #f65543;
+    margin: 22px 0 65px;
+}
+form{
+    margin-left: 30%;
+}
+form>p{
+    position:relative;
+}
+form input{
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    text-indent: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 25px;
+    width: 400px;
+}
+.span{
+    position: absolute;
+    top: 31px;
+    left: 410px;
+    color: #949494;
+    font-size: 12px;
+}
+input::-webkit-input-placeholder{
+    color: #b4b4b4;
+}
+
+form>p:nth-child(2) input{
+    width: 245px;
+}
+form>p:nth-child(3) input{
+    width: 245px;
+}
+#btn{
+    width: 130px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #a3a3a3;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #b4b4b4;
+    background-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+form p:last-child input{
+    background-color: #fe5341;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 145px;
+    border-radius: 10px;
+    outline: none;
+}
+form p:last-child input:hover{
+    color: yellow;
+}

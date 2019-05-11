@@ -1,0 +1,68 @@
+#pinlei_{
+    width: 100%;
+    background: #f7f7f7;
+    float: left;
+}
+.one_{
+    width: 1000px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    background: #ffffff;
+    margin: 25px auto;
+}
+.one_ img{
+    transition: all 1s;
+}
+.one_ img:hover{
+    transform: rotateZ(360deg);
+}
+.one_>div:nth-child(1){
+    margin-top: 20px;
+    overflow: hidden;
+}
+.one_>div:nth-child(1)>span:nth-child(1){
+    display: inline-block;
+    width: 6px;
+    height: 25px;
+    background: #ff5044;
+    float: left;
+}
+.one_>div:nth-child(1)>span:nth-child(2){
+    display: inline-block;
+    margin-left: 24px;
+    float: left;
+}
+.one_>div:nth-child(2),.one_>div:nth-child(3){
+    overflow: hidden;
+    margin-top: 36px;
+    margin-left: 5px;
+    text-align: center;
+    color: #a5a19e;
+    font-size: 13px;
+}
+.one_>div:nth-child(2)>div,.one_>div:nth-child(3)>div{
+    float: left;
+    margin-left: 35px;
+}
+.one_>div:last-child{
+    overflow: hidden;
+    border-top: 1px dashed #ececec;
+    margin-top: 20px;
+}
+.one_>div:last-child>ul{
+    list-style: none;
+    float: left;
+    color: #a5a19e;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.one_>div:last-child>ul>li{
+    margin-top: 15px;
+    font-size: 13px;
+}
+body>div:last-child{
+    clear: both;
+}
+
+

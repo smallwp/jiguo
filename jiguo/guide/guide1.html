@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导购最热</title>
+    <link rel="stylesheet" href="../../jiguo/css/index.css">
+    <link rel="stylesheet" href="../css/guide.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <script src="../../jiguo/js/jquery-3.3.1.js"></script>
+    <script src="../../jiguo/js/item.js"></script>
+    <script src="../../jiguo/js/doT.min.js"></script>
+
+
+    <script id="dot_2" type="text/x-dot-template">
+        {{~it.guide1:item:index}}
+        <li>
+            <div>
+                <img src="{{=item.url}}">
+            </div>
+            <div class="li_div">
+                <p>{{=item.title}}</p>
+                <div class="li_div_span2">
+                    <span class="guide_span">{{=item.span1}}</span>
+                    <span>{{=item.span2}}</span>
+                </div>
+            </div>
+            <img src="{{=item.img}}">
+        </li>
+        {{~}}
+    </script>
+
+    <script>
+        $.get("../../jiguo/json/guide.json","json",function (data) {
+            console.log(data);
+            var lis=doT.template($("#dot_2").text());
+            $(".guide_ul").html(lis(data));
+        },"json")
+    </script>
+
+
+</head>
+<body>
+<!--这是头部公共部分-->
+<div id="header">
+    <div id="center_">
+        <img src="../img/logonew.png" alt="">
+        <ul>
+            <li><a href="../html/index.html">首页</a></li>
+            <li><a href="../../play/HTML/kuwan-modal.html">酷玩</a></li>
+            <li><a href="../guide/guide1.html" class="font_red">导购</a></li>
+            <li><a href="../../use/HTML/top-demo1.html">试用</a></li>
+            <li><a href="../report/report1.html">报告</a></li>
+        </ul>
+        <ul>
+            <li>
+                <a href=""><img src="../../css/img/search.png" alt=""></a>
+            </li>
+            <li><a href="../html/regist.html">注册</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="banxin">
+       <h1>导购清单</h1>
+       <div class="guide_list">
+           <a href="" class="light">最新</a>
+           <a href="guide2.html">最热</a>
+       </div>
+</div>
+<div class="art">
+    <div class="art_bx">
+    <ul class="guide_ul">
+
+
+
+    </ul>
+        <div class="click">
+            <div class="click_">
+                <img src="../../css/img/more.png" id="click_img1">
+                <img src="../../css/img/loading-icon.gif" id="click_img2">
+                <span>点击加载更多</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--这是底部公共部分-->
+<div id="footer">
+    <div id="over_">
+        <img src="../img/code.png" alt="">
+        <ul>
+            <li><img src="../img/logoImg.jpg" alt=""></li>
+            <li>
+                <a href="">全球酷玩试用导购平台</a>
+            </li>
+            <li><a href="">酷.新奇.好玩.品质</a></li>
+            <li><a href="">微信添加 “jguojguo”</a></li>
+            <li><a href="">获取我们的服务</a>。</li>
+        </ul>
+        <ul>
+            <li>免费试用</li>
+            <li><a href="../html/help.html">试用流程</a></li>
+            <li><a href="">如何提高成功率</a></li>
+        </ul>
+        <ul>
+            <li>友情链接</li>
+            <li>智东西&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WEIBUSI</li>
+            <li>搜狐IT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腾讯科技</li>
+            <li>搜狐数码&nbsp;&nbsp;&nbsp;凤凰科技</li>
+            <li>凤凰数码&nbsp;&nbsp;&nbsp;PConline</li>
+            <li>泡泡网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3W咖啡</li>
+            <li>ZUK社区&nbsp;&nbsp;&nbsp;亿觅emie</li>
+            <li>极客公园&nbsp;&nbsp;&nbsp;易迅易启玩</li>
+            <li>果库</li>
+        </ul>
+
+        <ul>
+            <li>购买攻略</li>
+            <li><a href="">美亚海淘教程</a></li>
+            <li><a href="">日亚海淘教程</a></li>
+            <li><a href="">海淘转运攻略</a></li>
+            <li><a href="">kickstarter 众筹购买攻略</a></li>
+            <li><a href="">indiegogo 众筹购买攻略</a></li>
+        </ul>
+
+        <ul>
+            <li>厂商合作</li>
+            <li><a href="../html/about.html">关于极果</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">商务合作：BDjiguo.com</a></li>
+            <li><a href="">CEO邮箱：CEO@jiguo.com</a></li>
+        </ul>
+    </div>
+    <div>@ 2016 极果版权所有</div>
+</div>
+<div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.guide{
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+.banxin{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banxin_p{
+    color: #bfc1c0;
+    margin: 18px 0;
+    font-size: 12px;
+}
+.art_left{
+    float: left;
+    width: 705px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.art_left_top{
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+h2{
+    margin:25px 20px 15px;
+}
+.art_left_top>p:nth-child(2){
+    float: left;
+    padding: 5px 25px 30px;
+    background: url("../img/heiyue.png") no-repeat -3px 4px;
+    margin-left: 25px;
+    font-size: 13px;
+    color: #b1b3b2;
+}
+.art_left_top>p:nth-child(3){
+    float: right;
+    margin:3px 30px;
+    color: #b1b3b2;
+    font-size: 13px;
+}
+
+.art_left_bottom{
+    margin: 20px 20px 0 28px;
+}
+.art_left_bottom>p:first-child{
+    font-size: 12px;
+}
+.art_left_bottom>p:nth-child(3){
+    text-align: center;
+    font-weight: bold;
+}
+.bottom_p{
+    font-size: 15px;
+}
+.bottom_img{
+    margin: 25px 0;
+}
+.bottom_title{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    color: #bfc1c0;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+.art_right{
+    float: right;
+}
+.art_right_ul{
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #bfc1c0;
+    cursor: pointer;
+
+}
+.art_right_ul>li{
+    float: left;
+    list-style: none;
+    width: 130px;
+    height: 105px;
+    background-color: #fff;
+    text-align: center;
+}
+.art_right_ul>li:first-child{
+    border-right: 1px solid #dfdfdf;
+}
+.art_right_ul>li img{
+    margin-top: 30px;
+}
+.art_right_ul>li:nth-child(2)>img{
+    margin-bottom: 6px;
+}
+.art_right_ul>li p{
+    color: #b1b3b2;
+    font-size: 12px;
+}
+.qfd{
+    clear: both;
+}
+.bshare-custom{
+    margin:10px 0 0 16px;
+    display: none;
+}

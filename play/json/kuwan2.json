@@ -1,0 +1,36 @@
+{
+  "kuwan2":[
+    {
+      "title1":"B&O BeoSound 35 音响",
+      "title2":"支持所有音乐流媒体服务",
+      "span1":"￥ 512",
+      "span2":3,
+      "span3":3,
+      "img":"../../img/k2.jpg"
+    },
+    {
+      "title1":"SCIO 微型光谱仪",
+      "title2":"可以测定食物成分和营养",
+      "span1":"￥ 1212",
+      "span2":3,
+      "span3":3,
+      "img":"../../img/k1.jpg"
+    },
+    {
+      "title1":"XPLORER 2 航拍飞行器",
+      "title2":"搭载自动避障系统",
+      "span1":"￥ 433",
+      "span2":3,
+      "span3":3,
+      "img":"../../img/k4.jpg"
+    },
+    {
+      "title1":"Mozbii 触控吸色笔",
+      "title2":"能吸取65000种颜色",
+      "span1":"￥ 暂无",
+      "span2":3,
+      "span3":3,
+      "img":"../../img/k3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>极果首页</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/css3animation.css">
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/item.js"></script>
+    <script src="../js/doT.min.js"></script>
+
+    <style>
+        .scroll{
+            width: 50px;
+            height: 50px;
+            background-color: gainsboro;
+            position: fixed;
+            top: 550px;
+            left: 1250px;
+            border-radius: 8px;
+            cursor: pointer;
+            display: none;
+        }
+        #fix{
+            margin: 15px 7px ;
+        }
+    </style>
+    <!--dot模板引擎-->
+    <!--热门试用-->
+    <script id="dot_" type="text/x-dot-template">
+        {{~it.hot:item:index}}
+        <li>
+            <img src="{{=item.img}}">
+            <p>{{=item.title}}</p>
+            <span>{{=item.span1}}</span>
+            <span>{{=item.span2}}</span>
+            <p><span>{{=item.people}}</span>{{=item.reply}}</p>
+            <p>{{=item.day}}</p>
+            {{? item.status}}
+                 <div id="tubiao">{{=item.tag}}</div>
+            {{??}}
+                 <div class="tubiao">{{=item.tag}}</div>
+            {{?}}
+        </li>
+        {{~}}
+    </script>
+
+    <script>
+        $.get("../json/jiguo1.json","json",function (data) {
+            console.log(data);
+            var lis=doT.template($("#dot_").text());
+            $(".hot_ul").html(lis(data));
+        })
+    </script>
+
+    <!--报告精选-->
+    <script id="dot_1" type="text/x-dot-template">
+        {{~it.report:item:index}}
+        <li>
+            <img src="{{=item.img}}">
+            <div class="li_div">
+                <p>{{=item.title}}</p>
+                <div class="li_div_span1">
+                    <span class="re_span"></span>{{=item.people}}
+                </div>
+                <div class="li_div_span2">
+                    <span>{{=item.span1}}</span>
+                    <span>{{=item.span2}}</span>
+                </div>
+            </div>
+        </li>
+        {{~}}
+    </script>
+
+    <script>
+        $.get("../json/jiguo1.json","json",function (data) {
+            console.log(data);
+            var lis=doT.template($("#dot_1").text());
+            $(".report_bx_ul").html(lis(data));
+        },"json")
+    </script>
+
+    <!--导购精选-->
+    <script id="dot_2" type="text/x-dot-template">
+        {{~it.guide:item:index}}
+        <li>
+            <div>
+                <img src="{{=item.url}}">
+            </div>
+            <div class="li_div">
+                <p>{{=item.title}}</p>
+                <div class="li_div_span2">
+                    <span class="guide_span">{{=item.span1}}</span>
+                    <span>{{=item.span2}}</span>
+                </div>
+            </div>
+            <img src="{{=item.img}}">
+        </li>
+        {{~}}
+    </script>
+
+    <script>
+        $.get("../json/jiguo1.json","json",function (data) {
+            console.log(data);
+            var lis=doT.template($("#dot_2").text());
+            $(".guide_ul").html(lis(data));
+        },"json")
+    </script>
+
+    <!--发现酷玩-->
+    <script id="dot_3" type="text/x-dot-template">
+        {{~it.find:item:index}}
+        <li>
+            <img src="{{=item.url}}">
+            <div class="li_div find_div">
+                <p class="li_div_p">{{=item.title}}</p>
+                <p>{{=item.article}}</p>
+                <div class="li_div_span1 find_span1">
+                    {{=item.price}}
+                </div>
+                <div class="li_div_span2">
+                    <span class="guide_span">{{=item.span1}}</span>
+                    <span>{{=item.span2}}</span>
+                </div>
+            </div>
+        </li>
+        {{~}}
+    </script>
+
+    <script>
+        $.get("../json/jiguo1.json","json",function (data) {
+            console.log(data);
+            var lis=doT.template($("#dot_3").text());
+            $(".find_").html(lis(data));
+        },"json")
+    </script>
+
+</head>
+<body>
+<!--小图标-->
+<div class="scroll">
+    <img src="../img/back.png" id="fix">
+</div>
+
+<!--这是头部公共部分-->
+<div id="header">
+    <div id="center_">
+        <img src="../img/logonew.png" alt="">
+        <ul>
+            <li><a href="index.html" class="font_red">首页</a></li>
+            <li><a href="../../play/HTML/kuwan-modal.html">酷玩</a></li>
+            <li><a href="../guide/guide1.html">导购</a></li>
+            <li><a href="../../use/HTML/top-demo1.html">试用</a></li>
+            <li><a href="../report/report1.html">报告</a></li>
+        </ul>
+        <ul class="list_ul">
+            <li>
+                <img id="img_" src="../img/search.png" alt="">
+                <input id="inp_" type="search" placeholder="请输入要搜索的商品">
+            </li>
+            <li><a href="regist.html">注册</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--广告图-->
+<div class="banner">
+    <div class="banner_inner">
+        <div class="banner_right">
+            <p>幻响小贝HiFi2.1音箱</p>
+            <span>126申请</span>
+            <span>￥599</span>
+            <span>20台</span>
+            <p id="time"></p>
+            <button>立即申请</button>
+        </div>
+    </div>
+</div>
+
+<!--热门试用-->
+<div class="hot_outer">
+    <img src="../../css/img/prev.png" id="hot_outer_img1">
+    <img src="../../css/img/next.png" id="hot_outer_img2">
+    <div class="hot">
+        <h3>热门试用</h3>
+        <ul class="hot_ul">
+        </ul>
+    </div>
+</div>
+
+
+<!--报告精选-->
+<div class="report">
+    <div class="report_bx">
+        <h3>报告精选</h3>
+        <ul class="report_bx_ul">
+
+        </ul>
+    </div>
+</div>
+
+<!--导购精选-->
+<div class="guide">
+    <h3 class="guide_h3">导购精选</h3>
+    <p class="guide_p">查看更多</p>
+    <div class="qfd"></div>
+    <ul class="guide_ul">
+
+    </ul>
+</div>
+
+<!--发现酷玩-->
+<div class="guide find">
+    <div class="find_bx">
+        <h3 class="guide_h3">导购精选</h3>
+        <p class="guide_p">查看更多</p>
+        <div class="qfd"></div>
+        <ul class="report_bx_ul find_">
+
+        </ul>
+        <div class="click">
+            <div class="click_">
+                <img src="../../css/img/more.png" id="click_img1">
+                <img src="../../css/img/loading-icon.gif" id="click_img2">
+                <span>点击加载更多</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--这是底部公共部分-->
+<div id="footer">
+    <div id="over_">
+        <img src="../img/code.png" alt="">
+        <ul>
+            <li><img src="../img/logoImg.jpg" alt=""></li>
+            <li>
+                <a href="">全球酷玩试用导购平台</a>
+            </li>
+            <li><a href="">酷.新奇.好玩.品质</a></li>
+            <li><a href="">微信添加 “jguojguo”</a></li>
+            <li><a href="">获取我们的服务</a>。</li>
+        </ul>
+        <ul>
+            <li>免费试用</li>
+            <li><a href="help.html">试用流程</a></li>
+            <li><a href="">如何提高成功率</a></li>
+        </ul>
+        <ul>
+            <li>友情链接</li>
+            <li>智东西&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WEIBUSI</li>
+            <li>搜狐IT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腾讯科技</li>
+            <li>搜狐数码&nbsp;&nbsp;&nbsp;凤凰科技</li>
+            <li>凤凰数码&nbsp;&nbsp;&nbsp;PConline</li>
+            <li>泡泡网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3W咖啡</li>
+            <li>ZUK社区&nbsp;&nbsp;&nbsp;亿觅emie</li>
+            <li>极客公园&nbsp;&nbsp;&nbsp;易迅易启玩</li>
+            <li>果库</li>
+        </ul>
+
+        <ul>
+            <li>购买攻略</li>
+            <li><a href="">美亚海淘教程</a></li>
+            <li><a href="">日亚海淘教程</a></li>
+            <li><a href="">海淘转运攻略</a></li>
+            <li><a href="">kickstarter 众筹购买攻略</a></li>
+            <li><a href="">indiegogo 众筹购买攻略</a></li>
+        </ul>
+
+        <ul>
+            <li>厂商合作</li>
+            <li><a href="about.html">关于极果</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">商务合作：BDjiguo.com</a></li>
+            <li><a href="">CEO邮箱：CEO@jiguo.com</a></li>
+        </ul>
+    </div>
+    <div>@ 2016 极果版权所有</div>
+</div>
+<div></div>
+
+</body>
+</html>
+
+<script>
+
+    //滚动特效
+    $(document).scroll(function () {
+        if($(document).scrollTop()>=500){
+            $(".scroll").show()
+        }else {
+            $(".scroll").hide()
+        }
+    });
+
+
+    $(".scroll").on("click",function () {
+        window.location.href="#";
+    });
+
+    $(".scroll").on("mouseenter",function () {
+        $(this).css("background-color","#BABABA")
+
+    });
+    $(".scroll").on("mouseleave",function () {
+        $(this).css("background-color","gainsboro")
+
+    })
+
+
+
+
+</script>
